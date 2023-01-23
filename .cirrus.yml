@@ -2,7 +2,7 @@ env:
     # OrangeFox Sync Repository
     FOX_SYNC: https://gitlab.com/OrangeFox/sync.git
 
-    # Config
+    # Configk
     CONFIG: config.sh
 
     # Telegram
