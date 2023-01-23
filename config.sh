@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Device
-export FOX_BRANCH="fox_9.0"
-export DT_LINK="https://github.com/XTFathir/android_device_xiaomi_merlin -b fox_9.0"
+export FOX_BRANCH="fox_12.1"
+export DT_LINK="https://github.com/XTFathir/android_device_xiaomi_merlin -b merlin-user-11-RP1A.200720.011-V12.5.4.0.RJOMIXM-release-keys"
 
 export DEVICE="merlin"
 export OEM="xiaomi"
@@ -13,7 +13,7 @@ export OEM="xiaomi"
 ## "vendorbootimage" - for devices Using vendor boot for the recovery ramdisk (Usually for devices shipped with Android 12 or higher)
 export TARGET="recoveryimage"
 
-export OUTPUT="OrangeFox*.zip"
+lexport OUTPUT="OrangeFox*.zip"
 
 # Additional Dependencies (eg: Kernel Source)
 # Format: "repo dest"
@@ -22,7 +22,7 @@ DEPS=(
 )
 
 # Extra Command
-export EXTRA_CMD="export OF_MAINTAINER=FTRQepo"
+export EXTRA_CMD="export OF_MAINTAINER=FTRQP"
 
 # Magisk
 ## Use the Latest Release of Magisk for the OrangeFox addon
